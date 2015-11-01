@@ -11,7 +11,7 @@
 template<typename T>
 class SmartPointer {
 public:
-	explicit SmartPointer(T* p = nullptr);
+	SmartPointer(T* p = nullptr);
 	SmartPointer(const SmartPointer &ref);
 	~SmartPointer();
 
