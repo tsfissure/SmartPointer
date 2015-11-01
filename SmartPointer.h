@@ -16,18 +16,18 @@ public:
 	~SmartPointer();
 
 public:
-	T*					getRefObject()const;
-	bool				isNull();
+	T*		getRefObject()const;
+	bool		isNull();
 
 public:
 	SmartPointer<T>&	operator = (const SmartPointer &rkNode);
-	bool				operator==(const SmartPointer &rkNode);
-	T*					operator->()const;
-	T&					operator()()const;
-	T&					operator*()const;
+	bool			operator==(const SmartPointer &rkNode);
+	T*			operator->()const;
+	T&			operator()()const;
+	T&			operator*()const;
 
 private:
-	T*					m_pkRefObject;
+	T*			m_pkRefObject;
 };
 
 
