@@ -8,11 +8,11 @@ class Ref {
 
 public:
 	Ref();
-	virtual			~Ref();
+	virtual		~Ref();
 
 public:
-	void			retain();
-	void			release();
+	void		retain();
+	void		release();
 	unsigned int	getRefCount() const;
 
 private:
