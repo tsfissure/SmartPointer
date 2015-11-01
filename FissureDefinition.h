@@ -14,3 +14,4 @@ typedef unsigned long long uLLONG;
 #define  TS_CONDITION_RETURN(c)					do { if (c) return; } while (0);
 #define  TS_CONDITION_RETURN_BOOL(c)		do { if (c) return false; } while (0);
 #define  TS_CONDITION_RETURN_VALUE(c,v)	do { if (c) return v; } while (0);
+
